@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a-scene inspector="url: https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js">
+     
+        <a-box id="assento" color="#002757" position="0 0.73762 29.7" rotation="90 0 0" scale="1.5 1.5 0.2" material="" geometry="" ></a-box>
+        <a-box id="encosto" color="#002757" position="0 1.40167 30.32337" scale="1.2 1.27 0.2" material="" geometry=""></a-box>
+       
+        <a-entity position="0 0 2">
+            <a-entity id="assento"></a-entity>
+            <a-entity id="encosto"></a-entity>
+            
+        </a-entity>
+    </a-scene>
+</body>
+</html>
